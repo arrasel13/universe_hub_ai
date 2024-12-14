@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.font-worksans {
+  font-family: "Work Sans", sans-serif;
+}
+
+.text-newblack{
+  color: #111111;
+}
+
+.text-newash{
+  color: #585858;
+}
+
+.border-ashcolor{
+  border-color: #11111133;
+}

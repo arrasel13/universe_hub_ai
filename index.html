@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universe Hub - AI</title>
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <section class="container mx-auto universe-hub-ai flex flex-col py-16">
+        <div class="py-12 text-center">
+            <h2 class="font-worksans font-semibold text-5xl text-newblack mb-8">AI Universe Hub</h2>
+            <button class="btn btn-error text-white font-worksans font-semibold text-xl rounded-2xl">Sort By Date</button>
+        </div>
+
+        <div id="ai-hub-container" class="grid grid-cols-3 gap-5">
+            <!-- 1st item -->
+            <div class="">
+                
+            </div>
+
+        </div>
+
+        <!-- See More button -->
+        <div class="mt-12 text-center">
+            <button class="btn btn-error px-10 h-[64px] rounded-xl font-worksans font-semibold text-xl text-white">See More</button>
+        </div>
+
+        <!-- Modal -->
+        <!-- You can open the modal using ID.showModal() method -->
+        <dialog id="aiUniHub_modal" class="modal">
+            <div class="p-10 modal-box w-11/12 max-w-5xl">
+                <form method="dialog">
+                    <button class="btn btn-sm btn-circle btn-error text-white absolute right-2 top-2">✕</button>
+                </form>
+
+                <div class="flex items-center justify-between gap-5">
+                    <!-- left-content -->
+                    <div class="flex flex-col flex-1 border border-[#EB5757] bg-[#EB57570D] rounded-2xl p-4">
+                        <h3 class="font-worksans font-semibold text-2xl text-newblack">ChatGPT is an AI-powered chatbot platform that uses OpenAI's GPT technology to simulate human conversation.</h3>
+
+                        <div class="flex gap-4 my-6">
+                            <div class="bg-white px-6 py-5 rounded-2xl">
+                                <p class="font-worksans font-bold text-base text-[#03A30A]">$10/month Basic</p>
+                            </div>
+                            <div class="bg-white px-6 py-5 rounded-2xl">
+                                <p class="font-worksans font-bold text-base text-[#F28927]">$50/month Pro</p>
+                            </div>
+                            <div class="bg-white px-6 py-5 rounded-2xl">
+                                <p class="font-worksans font-bold text-base text-[#EB5757]">Contact us Enterprise</p>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <h4 class="font-worksans font-semibold text-2xl text-newblack">Features</h4>
+                                <ul class="list-disc list-inside font-worksans font-normal text-base text-newash">
+                                    <li>Customizable responses</li>
+                                    <li>Multilingual support</li>
+                                    <li>Seamless integration</li>
+                                </ul>
+                            </div>
+                            
+                            <div>
+                                <h4 class="font-worksans font-semibold text-2xl text-newblack">Integrations</h4>
+                                <ul class="list-disc list-inside font-worksans font-normal text-base text-newash">
+                                    <li>FB Messenger</li>
+                                    <li>Slack</li>
+                                    <li>Telegram</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- right content -->
+                    <div class="flex flex-col flex-1 border border-[#E7E7E7] bg-[#FFFFFF] rounded-2xl">
+                        <div class="card p-6">
+                            <figure class="">
+                                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes"
+                                    class="rounded-xl">
+                            </figure>
+                            <div class="mt-6 text-center">
+                                <h2 class="font-worksans font-semibold text-2xl text-newblack mb-4">Hi, how are you doing today?</h2>
+                                <p class="font-worksans font-normal text-base text-newash">
+                                    I'm doing well, thank you for asking. How can I assist you today?
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </dialog>
+    </section>
+
+    <script src="assets/js/aihub.js"></script>
+</body>
+</html>
