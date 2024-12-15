@@ -64,7 +64,7 @@ const handleShowAiUniHub = async (id) => {
 };
 
 const showDetails = (aiUniHubDetails) => {
-  console.log(aiUniHubDetails);
+  // console.log(aiUniHubDetails);
   const aiUniHubDetailContainer = document.getElementById(
     "aiUniHub-detail-container"
   );
